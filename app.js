@@ -116,3 +116,4 @@ app.get("/directors/:directorId/movies",async(request,response)=>{
      response.send(movies.map(movienames)=>convertMovieNameToPascalCase(movienames));
      
 });
+module.exports=app;
